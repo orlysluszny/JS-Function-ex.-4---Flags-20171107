@@ -1,0 +1,29 @@
+.flag > p{
+display:  none;
+}
+.flag {
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.show-name {
+    position: relative;
+    border: 1px solid black;
+}
+
+.show-name > p {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: calc(50% - 10px);
+    left: calc(50% - 50px);
+    background-color: silver;
+    color: white;
+    text-align: center;
+}
